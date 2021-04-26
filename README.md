@@ -6,8 +6,8 @@ Image resizer online to convert PNG SVG JPG files to PNG in multiple sizes.
 
 ## Source Code
 
-https://github.com/fraigo/image-resizer
-https://github.com/BioBut/image-resizer
+1.https://github.com/fraigo/image-resizer
+2.https://github.com/BioBut/image-resizer
 
 
 ## Online Demo
