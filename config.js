@@ -22,6 +22,26 @@ sizes["simple"]=[
 	{width:1024,height:500},
 	{width:180,height:120},
 ];
+sizes["screen"]=[
+	{width:1024,height:768},
+	{width:1366,height:768},
+	{width:1280,height:720},
+	{width:1920,height:1080},
+];
+sizes["vue-project"]=[
+	{width:16,height:16,id:'favicon-16x16'},
+	{width:32,height:32,id:'favicon-32x32'},
+	{width:60,height:60,id:'apple-touch-icon-60x60'},
+	{width:76,height:76,id:'apple-touch-icon-76x76'},
+	{width:120,height:120,id:'apple-touch-icon-120x120'},
+	{width:144,height:144,id:'msapplication-icon-144x144'},
+	{width:150,height:150,id:'mstile-150x150'},
+	{width:152,height:152,id:'apple-touch-icon-152x152'},
+	{width:180,height:180,id:'apple-touch-icon-180x180'},
+	{width:180,height:180,id:'apple-touch-icon'},	
+	{width:192,height:192,id:'android-chrome-192x192'},
+	{width:512,height:512,id:'android-chrome-512x512'},
+];
 sizes["icon/android"]=[
 	{width:36,height:36,id:'ldpi'},
 	{width:48,height:48,id:'mdpi'},
@@ -77,14 +97,20 @@ sizes["screen/android"]=[
 	{width:480,height:800,id:'hdpi',scale:'port'},
 	{width:720,height:1280,id:'xhdpi',scale:'port'},
 ];
+sizes["custom"] = [
+	{width:128,height:128,id:''},
+];
 
 var names=[];
 names["default"]="{image}.{width}x{height}";
 names["simple"]="{image}";
+names["screen"]="{image}.{width}x{height}";
+names["vue-project"]="{id}";
 names["icon/android"]="drawable_{id}_icon";
 names["icon/ios"]="{id}Logo.scale-{scale}";
 names["icon/windows"]="{id}Logo.scale-{scale}";
 names["icon/wp8"]="{id}";
 names["screen/android"]="drawable-{scale}-{id}-screen";
+names["custom"]="{image}.{width}x{height}";
 
 
